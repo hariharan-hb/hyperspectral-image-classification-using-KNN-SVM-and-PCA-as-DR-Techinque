@@ -36,3 +36,9 @@ The main objective of SVM is to divide the datasets into classes to find a maxim
 -	Algorithm will create hyperplanes iteratively that separates the classes in best possible way.
 -	Then, it will choose the hyperplane that separates the classes correctly.
 
+
+## Datasets Used:
+
+- AVIRIS sensor across the Indian Pines test site in north western Indiana and comprises of 145*145 pixels and 224 spectral reflectance wavelength bands
+- 224-band AVIRIS sensor captured dataset over Salinas Valley, California 
+- University of Pavia, Italy Hyperspectral Dataset
