@@ -12,6 +12,8 @@ In other words, PCA is a statistical technique that enables the identification o
 ## KNN
 K-nearest neighbour algorithm (KNN) is a type of supervised learning algorithm which is used for both classification and regression problems. But it is predominantly used for predictive classification problems. KNN is a lazy learning algorithm, as it does not have a specialized training phase and uses all the data during classification for training and it is also a non-parametric learning algorithm, since the underlying data is not analysed.
 
+![image](https://user-images.githubusercontent.com/106448757/170839849-8c9068ea-1562-48da-b8c2-d100ab7ab9be.png)
+
 KNN has the following basic steps:
 -	Decide the number of neighbours
 -	Calculate distance from the test datapoint
@@ -21,6 +23,14 @@ KNN has the following basic steps:
 ## SVM
 
 The concept of Support Vector Machine is that a hyperplane is identified which are decision boundaries in the n-dimensional space, and which can differentiate the datapoints into N groups distinctly. There could be multiple possible hyperplanes to distinguish the datapoints.
+
+![image](https://user-images.githubusercontent.com/106448757/170839836-5ef052f8-dd93-4571-955b-7e88d3c5eaf8.png)
+
+The followings are important concepts in SVM 
+-	**Identifying Support Vectors** – The datapoints that are found closer to the hyperplane is called as support vectors. Separating line or the hyperplane will be decided with the help of these support vectors.
+-	**Hyperplane** – It is a decision plane or line which is divides the set of objects into different classes in the n-dimensional plot.
+-	**Margin** − It is the space between two lines on the closet data points of different classes. It can be calculated as the perpendicular distance from the line to the support vectors. In SVM usually the margin is always large since it is good margin and small margin is considered as bad margin.
+
 
 The main objective of SVM is to divide the datasets into classes to find a maximum marginal hyperplane (MMH) and it can be done in the following two steps 
 -	Algorithm will create hyperplanes iteratively that separates the classes in best possible way.
